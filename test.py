@@ -203,5 +203,5 @@ def index():
 
 if __name__ == '__main__':
     bot.remove_webhook()
-    bot.set_webhook(url=f"https://yash-tg-tools-bot.onrender.com/{API_TOKEN}")  # <== यहाँ अपना Render URL डालो
+    bot.set_webhook(url=f"https://yash-tg-tools-bot.onrender.com/7002347339:AAGwZsG4naKcuhHBHFgk136JamOpa2OgMY8")  # <== यहाँ अपना Render URL डालो
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
